@@ -46,7 +46,7 @@ public class Employe {
 			}
 			
 			public String ChequePaie(){
-				return "Payer a l'ordre de "+this.getNom()+" ("+this.getFonction()+") ***"+this.getSalaire()+" DA //Employe";
+				return "Payer a l'ordre de "+this.Nom+" ("+this.Fonction+") ***"+this.Salaire+" DA //Employe";
 			}
 			
 			

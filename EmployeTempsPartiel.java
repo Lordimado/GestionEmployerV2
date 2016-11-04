@@ -37,7 +37,7 @@ Scanner key=new Scanner(System.in);
 		     }
 			
 			public String ChequePaie(){
-		        return "Payer a l'ordre de "+this.getNom()+" ("+this.getFonction()+") ***"+this.getSalairePH()+" DA"+"// Employe temps Partiel";
+		        return super.ChequePaie()+ "temps Partiel";
 		}
 	
 }

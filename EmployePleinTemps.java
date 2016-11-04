@@ -51,7 +51,7 @@ public class EmployePleinTemps extends Employe {
 						System.out.println("Est ce que cette employer travail la nuit ou le week end ?(O/N)");
 						char rep=key.nextLine().charAt(0) ;
 						if(rep == 'O'){
-							System.out.println("Donner la somme de la prime ajout�e a cette employer :");
+							System.out.println("Donner la somme de la prime ajoutée a cette employer :");
 							this.prime=key.nextDouble();
 							super.salaire=this.getSalairePS()*4+this.getPrime();}else{
 								super.salaire=this.getSalairePS()*4;
@@ -63,7 +63,4 @@ public class EmployePleinTemps extends Employe {
 					
 					/*------------------------------------------------------------------------------------------*/
 					
-					public String ChequePaie(){
-					        return "Payer a l'ordre de "+this.getNom()+" ("+this.getFonction()+") ***"+this.getSalairePS()+" DA"+"// Employe Plein temps";
-					}
-}
+				//chequePaie() déjà dans Employe qui peut etre héritée ici

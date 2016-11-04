@@ -64,3 +64,6 @@ public class EmployePleinTemps extends Employe {
 					/*------------------------------------------------------------------------------------------*/
 					
 				//chequePaie() déjà dans Employe qui peut etre héritée ici
+				/*Mais je voulais specifier de quel type d'employer il s'agit ... 
+				Genre chaque type ça s'affiche differement a la fin //Employe ..//Employe temps partiel .. //Employe PleinTemps 
+				et chaque employer a un salaire special ...*/

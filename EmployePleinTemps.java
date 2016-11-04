@@ -56,7 +56,11 @@ public class EmployePleinTemps extends Employe {
 							super.salaire=this.getSalairePS()*4+this.getPrime();}else{
 								super.salaire=this.getSalairePS()*4;
 							}
-							
+						
+						
+						public String ChequePaie(){
+		        				return super.ChequePaie()+ "Plein temps";
+							}	
 							
 							
 					}
@@ -67,3 +71,4 @@ public class EmployePleinTemps extends Employe {
 				/*Mais je voulais specifier de quel type d'employer il s'agit ... 
 				Genre chaque type ça s'affiche differement a la fin //Employe ..//Employe temps partiel .. //Employe PleinTemps 
 				et chaque employer a un salaire special ...*/
+	
